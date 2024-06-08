@@ -1,5 +1,5 @@
-// import { TonConnectButton } from '@tonconnect/ui-react'
-// import '@twa-dev/sdk';
+import { TonConnectButton } from '@tonconnect/ui-react';
+import '@twa-dev/sdk';
 import './App.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <div>Hello Toof</div>
-      {/* <TonConnectButton/> */}
+      <TonConnectButton/>
     </div>
   )
 }
