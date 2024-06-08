@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <div>Hello Toof</div>
-      <TonConnectButton/>
+      <TonConnectButton />
     </div>
   )
 }

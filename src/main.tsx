@@ -5,8 +5,8 @@ import './index.css';
 
 const manifestUrl = 'https://cu-toof.github.io/polled-twa/tonconnect-manifest.json';
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <TonConnectUIProvider manifestUrl={manifestUrl}>
-    <App/>
-  </TonConnectUIProvider>
+    <App />
+  </TonConnectUIProvider>,
 )
